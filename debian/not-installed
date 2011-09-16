@@ -1,0 +1,12 @@
+./usr/include/ktexteditor_codesnippets_core/completionmodel.h
+./usr/include/ktexteditor_codesnippets_core/ktexteditor_codesnippets_core_export.h
+./usr/include/ktexteditor_codesnippets_core/repository.h
+./usr/lib/libktexteditor_codesnippets_core.so
+./usr/lib/libacomment.a
+
+# moved my pkg-kde-tools
+./usr/lib/libkdeinit4_kate.so
+./usr/lib/libkdeinit4_kwrite.so
+
+# compressed manpage
+./usr/share/man/man1/kate.1
