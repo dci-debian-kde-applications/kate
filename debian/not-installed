@@ -10,6 +10,9 @@
 # compressed manpage
 ./usr/share/man/man1/kate.1
 
+# provided by kate-syntax-go -- #628161
+./usr/share/kde4/apps/katepart/syntax/go.xml
+
 # these would belong to kate-dev
 ./usr/include/kate/application.h
 ./usr/include/kate/documentmanager.h
