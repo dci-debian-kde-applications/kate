@@ -114,7 +114,7 @@ Package: kate-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: katepart (= ${binary:Version}),
+Depends: ${misc:Depends}, katepart (= ${binary:Version}),
  kde-runtime-dbg (>= 4:4.6.90),
  libqt4-dbg (>= 4:4.6)
 Breaks: kdebase-dbg (<< 4:4.6.90),
