@@ -5,6 +5,7 @@ kate (4:4.7.4-0r0) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * kate-dbg:
     - fix kdelibs-dbg -> kdelibs5-dbg typo (Closes: #652196)
+    - remove extra dependency on libqt4-dbg
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Dec 2011 21:35:44 +0100
 
