@@ -9,6 +9,19 @@ kate (4:4.8.1-0r0) UNRELEASED; urgency=low
 
  -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:29:52 +0100
 
+kate (4:4.7.4-3) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * Drop README.Debian, wrongly copied from kde4libs.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 12:13:57 +0100
+
+kate (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 10:00:51 +0100
+
 kate (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
