@@ -13,6 +13,7 @@ kate (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Drop dh_makeshlibs override: not needed as there are no symbol files.
   * Override lintian "kate: package-name-doesnt-match-sonames".
+  * Enable strict shlibs for libraries.
 
  -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:29:52 +0100
 
