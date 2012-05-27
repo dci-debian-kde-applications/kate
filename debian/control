@@ -62,21 +62,6 @@ Description: shared data files for kate
  .
  This package is part of the KDE 4 Base applications module.
 
-#Package: kate-dev
-#Architecture: any
-#Section: devel
-#Depends: kate (= ${binary:Version}),
-#         libkateinterfaces4 (= ${binary:Version}),
-#         libkatepartinterfaces4 (= ${binary:Version}),
-#         ${misc:Depends},
-#         ${shlibs:Depends}
-#Description: Development files for Kate
-# Kate is a powerful text editor that can open multiple files simultaneously.
-# .
-# This package contains the development files for Kate
-# .
-# This package is part of the KDE 4 Base applications module.
-
 Package: libkatepartinterfaces4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}

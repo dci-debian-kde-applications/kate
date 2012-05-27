@@ -14,6 +14,7 @@ kate (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Drop dh_makeshlibs override: not needed as there are no symbol files.
   * Override lintian "kate: package-name-doesnt-match-sonames".
   * Enable strict shlibs for libraries.
+  * Get rid of all traces of kate-dev.
 
  -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:29:52 +0100
 
