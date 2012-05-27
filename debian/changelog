@@ -1,6 +1,7 @@
-kate (4:4.8.3-0r1) UNRELEASED; urgency=low
+kate (4:4.8.3-1) experimental; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ Eshat Cakar ]
   * Update installed files.
@@ -16,7 +17,7 @@ kate (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Enable strict shlibs for libraries.
   * Get rid of all traces of kate-dev.
 
- -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:29:52 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 17:13:18 +0300
 
 kate (4:4.7.4-3) UNRELEASED; urgency=low
 
