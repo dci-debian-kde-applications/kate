@@ -9,6 +9,9 @@ kate (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.3.
   * Bump Standards-Version to 3.9.3, no changes needed.
 
+  [ Modestas Vainius ]
+  * Add myself to Uploaders.
+
  -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:29:52 +0100
 
 kate (4:4.7.4-3) UNRELEASED; urgency=low

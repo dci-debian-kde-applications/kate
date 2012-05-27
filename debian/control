@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>,
- Eshat Cakar <info@eshat.de>
+ Eshat Cakar <info@eshat.de>, Modestas Vainius <modax@debian.org>
 Build-Depends: cmake,
  debhelper (>= 7.3.16),
  kde-sc-dev-latest (>= 4:4.8.3),
