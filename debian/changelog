@@ -2,6 +2,9 @@ kate (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   * New upstream version.
 
+  [ Eshat Cakar ]
+  * Add watch file.
+
  -- Eshat Cakar <info@eshat.de>  Mon, 04 Jun 2012 22:50:54 +0200
 
 kate (4:4.8.3-1) experimental; urgency=low
