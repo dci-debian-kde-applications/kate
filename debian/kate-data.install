@@ -5,11 +5,17 @@ usr/share/doc/kde/HTML/en/kate/configdialog01.png
 usr/share/doc/kde/HTML/en/kate/configuring-part.docbook
 usr/share/doc/kde/HTML/en/kate/configuring.docbook
 usr/share/doc/kde/HTML/en/kate/fundamentals.docbook
+usr/share/doc/kde/HTML/en/kate/gdb-call-stack.png
+usr/share/doc/kde/HTML/en/kate/gdb-io.png
+usr/share/doc/kde/HTML/en/kate/gdb-locals.png
+usr/share/doc/kde/HTML/en/kate/gdb-output.png
+usr/share/doc/kde/HTML/en/kate/gdb-settings.png
 usr/share/doc/kde/HTML/en/kate/highlighted.png
 usr/share/doc/kde/HTML/en/kate/highlighting.docbook
 usr/share/doc/kde/HTML/en/kate/index.cache.bz2
 usr/share/doc/kde/HTML/en/kate/index.docbook
 usr/share/doc/kde/HTML/en/kate/kate.png
+usr/share/doc/kde/HTML/en/kate/line-modification-system.png
 usr/share/doc/kde/HTML/en/kate/man-kate.1.docbook
 usr/share/doc/kde/HTML/en/kate/mdi.docbook
 usr/share/doc/kde/HTML/en/kate/menus.docbook
