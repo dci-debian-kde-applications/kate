@@ -1,13 +1,14 @@
-kate (4:4.8.4-0r1) UNRELEASED; urgency=low
+kate (4:4.8.4-1) unstable; urgency=low
 
   * New upstream version.
+  * Team upload.
 
   [ Eshat Cakar ]
   * Add watch file.
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.4.
   * Update installed files.
 
- -- Eshat Cakar <info@eshat.de>  Mon, 04 Jun 2012 22:50:54 +0200
+ -- Modestas Vainius <modax@debian.org>  Sun, 10 Jun 2012 15:25:16 +0300
 
 kate (4:4.8.3-1) experimental; urgency=low
 
