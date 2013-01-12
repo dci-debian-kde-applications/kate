@@ -1,1 +1,2 @@
 kate: package-name-doesnt-match-sonames
+kate: hardening-no-fortify-functions usr/lib/kde4/katectagsplugin.so
