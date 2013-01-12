@@ -48,6 +48,5 @@ usr/share/kde4/services/katetabifyplugin.desktop
 usr/share/kde4/services/katetextfilter.desktop
 usr/share/kde4/services/katexmlcheck.desktop
 usr/share/kde4/services/katexmltools.desktop
-usr/share/kde4/services/ktexteditor_acomment.desktop
 usr/share/kde4/services/plasma-applet-katesession.desktop
 usr/share/kde4/servicetypes/kateplugin.desktop
