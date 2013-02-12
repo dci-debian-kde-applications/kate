@@ -7,6 +7,8 @@ kate (4:4.9.5-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to version 4:4.9.5.
   * Update installed files.
   * Add lintian override for hardening-no-fortify-functions.
+  * Merge 4:4.7.4-3 changelog entry into 4:4.8.3-1, because the former was
+    never uploaded to debian.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2013 00:32:41 +0100
 
@@ -27,6 +29,9 @@ kate (4:4.8.3-1) experimental; urgency=low
   * New upstream release.
   * Team upload.
 
+  [ Pino Toscano ]
+  * Drop README.Debian, wrongly copied from kde4libs.
+
   [ Eshat Cakar ]
   * Update installed files.
   * Update not-installed files.
@@ -42,13 +47,6 @@ kate (4:4.8.3-1) experimental; urgency=low
   * Get rid of all traces of kate-dev.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 17:13:18 +0300
-
-kate (4:4.7.4-3) UNRELEASED; urgency=low
-
-  [ Pino Toscano ]
-  * Drop README.Debian, wrongly copied from kde4libs.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 12:13:57 +0100
 
 kate (4:4.7.4-2) unstable; urgency=low
 
