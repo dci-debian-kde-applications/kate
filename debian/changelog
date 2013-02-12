@@ -9,6 +9,8 @@ kate (4:4.9.5-0r1) UNRELEASED; urgency=low
   * Add lintian override for hardening-no-fortify-functions.
   * Merge 4:4.7.4-3 changelog entry into 4:4.8.3-1, because the former was
     never uploaded to debian.
+  * In debian/rules, create an ${allLibraries} variable for kate-dbg instead of
+    kdepimlibs-dbg; it was a typo.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2013 00:32:41 +0100
 
