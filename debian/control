@@ -9,6 +9,8 @@ Build-Depends: cmake,
  debhelper (>= 7.3.16),
  kde-sc-dev-latest (>= 4:4.10.0),
  kdelibs5-dev (>= 4:4.10),
+ libkactivities-dev (>= 4:4.10),
+ libqjson-dev,
  pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.3
 Homepage: http://kate-editor.org/
