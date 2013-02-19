@@ -15,6 +15,9 @@ kate (4:4.10.0-0r0) UNRELEASED; urgency=low
   * In debian/rules, create an ${allLibraries} variable for kate-dbg instead of
     kdepimlibs-dbg; it was a typo.
 
+  [ Josep Febrer ]
+  * Update installed files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2013 00:32:41 +0100
 
 kate (4:4.8.4-1) unstable; urgency=low
