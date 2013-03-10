@@ -22,6 +22,7 @@ usr/lib/kde4/katexmlcheckplugin.so
 usr/lib/kde4/katexmltoolsplugin.so
 usr/lib/kde4/plasma_applet_katesession.so
 usr/lib/libkdeinit4_kate.so
+usr/share/applications/kde4/kate.desktop
 usr/share/kde4/apps/kate/plugins/project/ui.rc
 usr/share/kde4/services/kate_kttsd.desktop
 usr/share/kde4/services/katebacktracebrowserplugin.desktop
