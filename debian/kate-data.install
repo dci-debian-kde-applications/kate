@@ -19,11 +19,13 @@ usr/share/doc/kde/HTML/en/kate/line-modification-system.png
 usr/share/doc/kde/HTML/en/kate/man-kate.1.docbook
 usr/share/doc/kde/HTML/en/kate/mdi.docbook
 usr/share/doc/kde/HTML/en/kate/menus.docbook
+usr/share/doc/kde/HTML/en/kate/minimap.png
 usr/share/doc/kde/HTML/en/kate/part.docbook
+usr/share/doc/kde/HTML/en/kate/plugins-part.docbook
 usr/share/doc/kde/HTML/en/kate/plugins.docbook
 usr/share/doc/kde/HTML/en/kate/regular-expressions.docbook
-usr/share/doc/kde/HTML/en/kate/snippets-config.png
 usr/share/doc/kde/HTML/en/kate/snippets-form.png
+usr/share/doc/kde/HTML/en/kate/snippets-panel.png
 usr/share/doc/kde/HTML/en/kate/snippets-usage.png
 usr/share/doc/kde/HTML/en/kate/unhighlighted.png
 usr/share/doc/kde/HTML/en/kate/vi.docbook
