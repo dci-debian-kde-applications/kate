@@ -61,9 +61,9 @@ includes/
 kate/
 ------
 
-Copyright: © 2001-2005, 2008 Christoph Cullmann <cullmann@kde.org>
+Copyright: © 2001-2005, 2008, 2010, 2012 Christoph Cullmann <cullmann@kde.org>
 Copyright: © 2002-2007 Hamish Rodda <rodda@kde.org>
-Copyright: © 2001-2002, 2004-2006, 2008-2009 Joseph Wenninger <jowenn@kde.org> <jowenn@jowenn.at>
+Copyright: © 2001-2002, 2003, 2004-2006, 2005, 2007, 2008-2009, 2010, 2012 Joseph Wenninger <jowenn@kde.org> <jowenn@jowenn.at>
 Copyright: © 2001-2005 Anders Lund <anders.lund@lund.tdcadsl.dk> <anders@alweb.dk>
 Copyright: © 1999 Jochen Wilhelmy <digisnap@cs.tu-berlin.de>
 Copyright: © 2008-2009 Erlend Hamberg <ehamberg@gmail.com>
@@ -71,7 +71,7 @@ Copyright: © 2007-2008 David Nolden <david.nolden.kdevelop@art-master.de>
 Copyright: © 2007-2008 Mirko Stocker <me@misto.ch>
 Copyright: © 2005-2009 Dominik Haumann <dhdev@gmx.de>
 Copyright: © 2002 John Firebaugh <jfirebaugh@kde.org>
-Copyright: © 2008 Paul Giannaros <paul@giannaros.org>
+Copyright: © 2006, 2008 Paul Giannaros <paul@giannaros.org>
 Copyright: © 2007 Sebastian Pipping <webmaster@hartwork.org>
 Copyright: © 2007 Rafael Fernández López <ereslibre@kde.org>
 Copyright: © 2003 Anakim Border <aborder@sources.sourceforge.net>
@@ -104,6 +104,23 @@ Copyright: © 2008 Jakob Petsovits <jpetso@gmx.at>
 Copyright: © 2009 Milian Wolff <mail@milianw.de>
 Copyright: © 2009 Paul Gideon Dann <pdgiddie@gmail.com>
 Copyright: © 2009 Bernhard Beschow <bbeschow@cs.tu-berlin.de>
+Copyright: © 2008 Montel Laurent <montel@kde.org>
+Copyright: © 2006, 2008-2011, 2010, 2012 Kåre Särs <kare.sars@iki.fi>
+Copyright: © 2008-2010, 2011 Ian Wakeling <ian.wakeling@ntlworld.com>
+Copyright: © 2009, 2010 Abhishek Patil <abhishekworld@gmail.com>
+Copyright: © 2012 Shaheed Haque <srhaque@theiet.org> 
+Copyright: © 2010-2012 Alex Trubov <i.zaufi@gmail.com>
+Copyright: © 2007 Jim Bublitz <jbublitz@nwinternet.com>
+Copyright: © 2007 Flavio Castelli <flavio.castelli@gmail.com>
+Copyright: © 1996-2003 Darren Hiebert <dhiebert@users.sourceforge.net>
+Copyright: © 2004 Jens Dagerbo
+Copyright: © 2001-2002 Bernd Gehrmann
+Copyright: © 2007 Mirko Stocker <me@misto.ch>
+Copyright: © 2009 Erlend Hamberg (ehamberg@gmail.com)
+Copyright: © 2010 Thomas Fjellstrom <thomas@fjellstrom.ca>
+Copyright: © 2010 Marco Mentasti <marcomentasti@gmail.com>
+Copyright: © 2011 Svyatoslav Kuzmich <svatoslav1@gmail.com>
+Copyright: © 2002 Simon Hausmann <hausmann@kde.org>
 
 ------
 ktexteditor/

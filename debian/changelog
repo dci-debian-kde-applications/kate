@@ -18,6 +18,7 @@ kate (4:4.10.1-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Update not-installed files.
   * Bump kde-sc-dev-latest build dependency to version 4:4.10.1.
+  * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Jan 2013 00:32:41 +0100
 
