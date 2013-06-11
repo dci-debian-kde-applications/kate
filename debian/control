@@ -12,7 +12,7 @@ Build-Depends: cmake,
  libqjson-dev,
  pkg-config,
  pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://kate-editor.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kate.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kate.git
