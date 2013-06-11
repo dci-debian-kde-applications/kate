@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
  Sune Vuorela <sune@debian.org>
 Build-Depends: cmake,
- debhelper (>= 7.3.16),
+ debhelper (>= 9),
  kde-sc-dev-latest (>= 4:4.10.1),
  kdelibs5-dev (>= 4:4.10),
  libkactivities-dev (>= 4:4.10),
