@@ -1,3 +1,8 @@
+kate (4:4.10.5-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Jul 2013 13:08:02 +0200
+
 kate (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
