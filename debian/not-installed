@@ -8,6 +8,9 @@
 # provided by kate-syntax-go -- #628161
 ./usr/share/kde4/apps/katepart/syntax/go.xml
 
+# provided by nescc -- #716942
+./usr/share/kde4/apps/katepart/syntax/nesc.xml
+
 # these would belong to kate-dev
 ./usr/include/kate/application.h
 ./usr/include/kate/documentmanager.h
