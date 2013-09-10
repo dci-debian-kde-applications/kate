@@ -68,6 +68,7 @@ Description: shared data files for kate
 
 Package: libkatepartinterfaces4
 Architecture: any
+Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: kate part library
  This library contains the code used by the kate part. It is not

@@ -1,5 +1,7 @@
 kate (4:4.10.5-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix section of libkatepartinterfaces4 to be "libs".
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Sep 2013 12:12:36 +0200
 
