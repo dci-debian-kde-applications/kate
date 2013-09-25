@@ -2,6 +2,7 @@ usr/bin/kate
 usr/lib/kde4/kate_kttsd.so
 usr/lib/kde4/katebacktracebrowserplugin.so
 usr/lib/kde4/katebuildplugin.so
+usr/lib/kde4/katecloseexceptplugin.so
 usr/lib/kde4/katectagsplugin.so
 usr/lib/kde4/katefilebrowserplugin.so
 usr/lib/kde4/katefiletemplates.so
@@ -27,6 +28,7 @@ usr/share/kde4/apps/kate/plugins/project/ui.rc
 usr/share/kde4/services/kate_kttsd.desktop
 usr/share/kde4/services/katebacktracebrowserplugin.desktop
 usr/share/kde4/services/katebuildplugin.desktop
+usr/share/kde4/services/katecloseexceptplugin.desktop
 usr/share/kde4/services/katectagsplugin.desktop
 usr/share/kde4/services/katefilebrowserplugin.desktop
 usr/share/kde4/services/katefiletemplates.desktop
