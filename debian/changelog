@@ -1,3 +1,7 @@
+kate (4:4.11.2-2) UNRELEASED; urgency=low
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 20:57:57 +0200
+
 kate (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
