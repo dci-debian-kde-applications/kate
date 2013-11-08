@@ -1,3 +1,9 @@
+kate (4:4.11.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 13:51:08 +0100
+
 kate (4:4.11.2-2) experimental; urgency=low
 
   * Bump kdelibs5-dev build dependency.
