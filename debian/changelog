@@ -1,10 +1,10 @@
-kate (4:4.11.3-2) UNRELEASED; urgency=low
+kate (4:4.11.3-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Do not install (again) the go.xml and nesc.xml highlighting files, as they
     are already provided by other packages. (Closes: #726756)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 15:07:10 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 30 Nov 2013 15:13:26 +0100
 
 kate (4:4.11.3-1) unstable; urgency=low
 
