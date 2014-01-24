@@ -8,6 +8,7 @@ kate (4:4.11.5-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Build the auto tests.
   * Bump Standards-Version to 3.9.5, no changes needed.
+  * Add autopkgtests.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jan 2014 13:02:53 -0300
 
