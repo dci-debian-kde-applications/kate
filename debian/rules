@@ -5,9 +5,6 @@ libpkgs_addsubst_allLibraries = kate-dbg
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-override_dh_auto_configure:
-	$(overridden_command) -- -DKDE4_BUILD_TESTS=false
-
 .PHONY: override_dh_auto_test
 
 override_dh_strip:

@@ -5,6 +5,9 @@ kate (4:4.11.5-1) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * Update package descriptions. (Closes: #731894)
 
+  [ Maximiliano Curia ]
+  * Build the auto tests.
+
  -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jan 2014 13:02:53 -0300
 
 kate (4:4.11.3-2) unstable; urgency=low
