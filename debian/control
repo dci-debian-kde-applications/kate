@@ -6,13 +6,13 @@ Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
- debhelper (>= 9),
- kde-sc-dev-latest (>= 4:4.11),
- kdelibs5-dev (>= 4:4.11),
- libkactivities-dev (>= 4:4.11),
- libqjson-dev,
- pkg-config,
- pkg-kde-tools (>= 0.12)
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libkactivities-dev (>= 4:4.11),
+               libqjson-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://kate-editor.org/
@@ -23,9 +23,9 @@ Package: kate
 Section: editors
 Architecture: any
 Depends: kate-data (>= ${source:Version}),
- katepart (= ${binary:Version}),
- ${misc:Depends},
- ${shlibs:Depends}
+         katepart (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter4, konsole
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
@@ -47,10 +47,12 @@ Description: powerful text editor
 Package: katepart
 Architecture: any
 Depends: kate-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdelibs5-data (<< 4:4.6.90), kdelibs5-plugins (<< 4:4.6.90), 
- kate (<< 4:4.7.0)
-Replaces: kdelibs5-data (<< 4:4.6.90), kdelibs5-plugins (<< 4:4.6.90), 
- kate (<< 4:4.7.0)
+Breaks: kate (<< 4:4.7.0),
+        kdelibs5-data (<< 4:4.6.90),
+        kdelibs5-plugins (<< 4:4.6.90)
+Replaces: kate (<< 4:4.7.0),
+          kdelibs5-data (<< 4:4.6.90),
+          kdelibs5-plugins (<< 4:4.6.90)
 Description: embeddable text editor component
  KatePart is a fast and featurerich text editor component. It implements the
  KTextEditor interfaces, a common interface collection for text editor
@@ -105,14 +107,16 @@ Package: kate-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, katepart (= ${binary:Version}),
- kde-runtime-dbg (>= 4:4.6.90), ${allLibraries}
+Depends: katepart (= ${binary:Version}),
+         kde-runtime-dbg (>= 4:4.6.90),
+         ${allLibraries},
+         ${misc:Depends}
 Breaks: kdebase-dbg (<< 4:4.6.90),
- kdelibs5-dbg (<< 4:4.6.90),
- kdesdk-dbg (<< 4:4.6.90)
+        kdelibs5-dbg (<< 4:4.6.90),
+        kdesdk-dbg (<< 4:4.6.90)
 Replaces: kdebase-dbg (<< 4:4.6.90),
- kdelibs5-dbg (<< 4:4.6.90),
- kdesdk-dbg (<< 4:4.6.90)
+          kdelibs5-dbg (<< 4:4.6.90),
+          kdesdk-dbg (<< 4:4.6.90)
 Description: debugging symbols for Kate
  This package contains debugging files used to investigate problems with
  binaries included in Kate.
