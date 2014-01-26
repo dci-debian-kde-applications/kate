@@ -1,4 +1,4 @@
-kate (4:4.11.5-1) UNRELEASED; urgency=low
+kate (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kate (4:4.11.5-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtests.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jan 2014 13:02:53 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 26 Jan 2014 12:25:42 +0100
 
 kate (4:4.11.3-2) unstable; urgency=low
 
