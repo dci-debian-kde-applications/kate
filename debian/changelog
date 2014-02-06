@@ -1,6 +1,7 @@
 kate (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump kde4libs b-d version.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:12:05 +0100
 
