@@ -55,6 +55,7 @@ usr/share/kde4/apps/katepart/script/indentation/haskell.js
 usr/share/kde4/apps/katepart/script/indentation/lilypond.js
 usr/share/kde4/apps/katepart/script/indentation/lisp.js
 usr/share/kde4/apps/katepart/script/indentation/lua.js
+usr/share/kde4/apps/katepart/script/indentation/pascal.js
 usr/share/kde4/apps/katepart/script/indentation/python.js
 usr/share/kde4/apps/katepart/script/indentation/ruby.js
 usr/share/kde4/apps/katepart/script/indentation/xml.js
@@ -143,9 +144,11 @@ usr/share/kde4/apps/katepart/syntax/gcc.xml
 usr/share/kde4/apps/katepart/syntax/gdb.xml
 usr/share/kde4/apps/katepart/syntax/gdl.xml
 usr/share/kde4/apps/katepart/syntax/gettext.xml
+usr/share/kde4/apps/katepart/syntax/git-rebase.xml
 usr/share/kde4/apps/katepart/syntax/glosstex.xml
 usr/share/kde4/apps/katepart/syntax/glsl.xml
 usr/share/kde4/apps/katepart/syntax/gnuassembler.xml
+usr/share/kde4/apps/katepart/syntax/gnuplot.xml
 usr/share/kde4/apps/katepart/syntax/grammar.xml
 usr/share/kde4/apps/katepart/syntax/haml.xml
 usr/share/kde4/apps/katepart/syntax/haskell.xml
@@ -203,6 +206,7 @@ usr/share/kde4/apps/katepart/syntax/modula-2.xml
 usr/share/kde4/apps/katepart/syntax/monobasic.xml
 usr/share/kde4/apps/katepart/syntax/mup.xml
 usr/share/kde4/apps/katepart/syntax/nasm.xml
+usr/share/kde4/apps/katepart/syntax/nagios.xml
 usr/share/kde4/apps/katepart/syntax/nemerle.xml
 usr/share/kde4/apps/katepart/syntax/noweb.xml
 usr/share/kde4/apps/katepart/syntax/objectivec.xml
@@ -225,6 +229,7 @@ usr/share/kde4/apps/katepart/syntax/povray.xml
 usr/share/kde4/apps/katepart/syntax/ppd.xml
 usr/share/kde4/apps/katepart/syntax/progress.xml
 usr/share/kde4/apps/katepart/syntax/prolog.xml
+usr/share/kde4/apps/katepart/syntax/protobuf.xml
 usr/share/kde4/apps/katepart/syntax/purebasic.xml
 usr/share/kde4/apps/katepart/syntax/python.xml
 usr/share/kde4/apps/katepart/syntax/q.xml
