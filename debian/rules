@@ -9,3 +9,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kate-dbg
+
+override_dh_install:
+	mv debian/tmp/usr/share/kde4/apps/katepart/syntax/go.xml \
+	   debian/tmp/usr/share/kde4/apps/katepart/syntax/go-lang.xml
+	$(overridden_command)

@@ -14,6 +14,7 @@ usr/share/kde4/apps/kate/icons/hicolor/16x16/actions/sql-field.png
 usr/share/kde4/apps/kate/icons/hicolor/16x16/actions/sql-table.png
 usr/share/kde4/apps/kate/icons/hicolor/16x16/actions/sql-view.png
 usr/share/kde4/apps/kate/kateui.rc
+usr/share/kde4/apps/kate/pate/
 usr/share/kde4/apps/kate/plugins/filetree/ui.rc
 usr/share/kde4/apps/kate/plugins/kate_kttsd/ui.rc
 usr/share/kde4/apps/kate/plugins/katebuild/ui.rc
@@ -32,6 +33,8 @@ usr/share/kde4/apps/kate/plugins/kategdb/ui.rc
 usr/share/kde4/apps/kate/plugins/katekonsole/ui.rc
 usr/share/kde4/apps/kate/plugins/katemailfiles/ui.rc
 usr/share/kde4/apps/kate/plugins/kateopenheader/ui.rc
+usr/share/kde4/apps/kate/plugins/katepateplugin/ui.rc
+usr/share/kde4/apps/kate/plugins/katereplicodeplugin/ui.rc
 usr/share/kde4/apps/kate/plugins/katesearch/ui.rc
 usr/share/kde4/apps/kate/plugins/katesql/ui.rc
 usr/share/kde4/apps/kate/plugins/katesymbolviewer/ui.rc
@@ -40,6 +43,7 @@ usr/share/kde4/apps/kate/plugins/katetabify/ui.rc
 usr/share/kde4/apps/kate/plugins/katetextfilter/ui.rc
 usr/share/kde4/apps/kate/plugins/katexmlcheck/ui.rc
 usr/share/kde4/apps/kate/plugins/katexmltools/ui.rc
+usr/share/kde4/apps/kate/plugins/pate/
 usr/share/kde4/apps/kate/tips
 usr/share/kde4/apps/katepart/katepartsimpleui.rc
 usr/share/kde4/apps/katepart/katepartui.rc
@@ -52,6 +56,7 @@ usr/share/kde4/apps/katepart/script/files/quickcoding/cpp/c.template
 usr/share/kde4/apps/katepart/script/indentation/cppstyle.js
 usr/share/kde4/apps/katepart/script/indentation/cstyle.js
 usr/share/kde4/apps/katepart/script/indentation/haskell.js
+usr/share/kde4/apps/katepart/script/indentation/latex.js
 usr/share/kde4/apps/katepart/script/indentation/lilypond.js
 usr/share/kde4/apps/katepart/script/indentation/lisp.js
 usr/share/kde4/apps/katepart/script/indentation/lua.js
@@ -149,6 +154,7 @@ usr/share/kde4/apps/katepart/syntax/glosstex.xml
 usr/share/kde4/apps/katepart/syntax/glsl.xml
 usr/share/kde4/apps/katepart/syntax/gnuassembler.xml
 usr/share/kde4/apps/katepart/syntax/gnuplot.xml
+usr/share/kde4/apps/katepart/syntax/go-lang.xml
 usr/share/kde4/apps/katepart/syntax/grammar.xml
 usr/share/kde4/apps/katepart/syntax/haml.xml
 usr/share/kde4/apps/katepart/syntax/haskell.xml
@@ -193,6 +199,7 @@ usr/share/kde4/apps/katepart/syntax/mako.xml
 usr/share/kde4/apps/katepart/syntax/mandoc.xml
 usr/share/kde4/apps/katepart/syntax/markdown.xml
 usr/share/kde4/apps/katepart/syntax/mason.xml
+usr/share/kde4/apps/katepart/syntax/mathematica.xml
 usr/share/kde4/apps/katepart/syntax/matlab.xml
 usr/share/kde4/apps/katepart/syntax/maxima.xml
 usr/share/kde4/apps/katepart/syntax/mediawiki.xml
@@ -230,6 +237,7 @@ usr/share/kde4/apps/katepart/syntax/ppd.xml
 usr/share/kde4/apps/katepart/syntax/progress.xml
 usr/share/kde4/apps/katepart/syntax/prolog.xml
 usr/share/kde4/apps/katepart/syntax/protobuf.xml
+usr/share/kde4/apps/katepart/syntax/puppet.xml
 usr/share/kde4/apps/katepart/syntax/purebasic.xml
 usr/share/kde4/apps/katepart/syntax/python.xml
 usr/share/kde4/apps/katepart/syntax/q.xml
@@ -238,6 +246,7 @@ usr/share/kde4/apps/katepart/syntax/qml.xml
 usr/share/kde4/apps/katepart/syntax/qt4.xml
 usr/share/kde4/apps/katepart/syntax/r.xml
 usr/share/kde4/apps/katepart/syntax/rapidq.xml
+usr/share/kde4/apps/katepart/syntax/replicode.xml
 usr/share/kde4/apps/katepart/syntax/relaxng.xml
 usr/share/kde4/apps/katepart/syntax/relaxngcompact.xml
 usr/share/kde4/apps/katepart/syntax/rest.xml

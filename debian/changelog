@@ -1,6 +1,7 @@
 kate (4:4.13.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Add pate plugin, sync with kubuntu package.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 15:22:36 +0200
 
