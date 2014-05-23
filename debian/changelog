@@ -3,6 +3,7 @@ kate (4:4.13.1-1~) UNRELEASED; urgency=medium
   * New upstream release.
   * Add pate plugin, sync with kubuntu package.
   * Update install files.
+  * New patch: sideeffects_in_asserts_are_evil.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:21:10 +0200
 

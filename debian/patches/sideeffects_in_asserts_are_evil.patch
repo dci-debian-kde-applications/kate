@@ -1,0 +1,35 @@
+Index: kate/tests/katetextbuffertest.cpp
+===================================================================
+--- kate.orig/tests/katetextbuffertest.cpp	2014-05-23 14:47:39.895148666 +0200
++++ kate/tests/katetextbuffertest.cpp	2014-05-23 14:49:18.923218852 +0200
+@@ -417,12 +417,16 @@
+ {
+   const QString folder_name = QString("katetest_%1").arg(QCoreApplication::applicationPid());
+   const QString file_path = QDir::tempPath() + '/' + folder_name + "/foo";
+-  Q_ASSERT(QDir::temp().mkdir(folder_name));
++  bool result = QDir::temp().mkdir(folder_name);
++  Q_ASSERT(result);
+ 
+   QFile f(file_path);
+-  Q_ASSERT(f.open(QIODevice::WriteOnly | QIODevice::Truncate));
++
++  result = f.open(QIODevice::WriteOnly | QIODevice::Truncate);
++  Q_ASSERT(result);
+   f.write("1234567890");
+-  Q_ASSERT(f.flush());
++  result = f.flush();
++  Q_ASSERT(result);
+   f.close();
+ 
+   QFile::setPermissions(QDir::tempPath() + '/' + folder_name, QFile::ExeOwner);
+@@ -444,6 +448,8 @@
+   f.close();
+ 
+   QFile::setPermissions(QDir::tempPath() + '/' + folder_name, QFile::WriteOwner | QFile::ExeOwner);
+-  Q_ASSERT(f.remove());
+-  Q_ASSERT(QDir::temp().rmdir(folder_name));
++  result = f.remove();
++  Q_ASSERT(result);
++  result = QDir::temp().rmdir(folder_name);
++  Q_ASSERT(result);
+ }
