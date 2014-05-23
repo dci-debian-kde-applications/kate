@@ -71,6 +71,7 @@ usr/share/kde4/apps/katepart/script/libraries/emmet/lib.js
 usr/share/kde4/apps/katepart/script/libraries/range.js
 usr/share/kde4/apps/katepart/script/libraries/string.js
 usr/share/kde4/apps/katepart/script/libraries/underscore.js
+usr/share/kde4/apps/katepart/script/libraries/utils.js
 usr/share/kde4/apps/katepart/syntax/abap.xml
 usr/share/kde4/apps/katepart/syntax/abc.xml
 usr/share/kde4/apps/katepart/syntax/actionscript.xml
@@ -112,7 +113,6 @@ usr/share/kde4/apps/katepart/syntax/commonlisp.xml
 usr/share/kde4/apps/katepart/syntax/component-pascal.xml
 usr/share/kde4/apps/katepart/syntax/context.xml
 usr/share/kde4/apps/katepart/syntax/cpp.xml
-usr/share/kde4/apps/katepart/syntax/cpp11.xml
 usr/share/kde4/apps/katepart/syntax/crk.xml
 usr/share/kde4/apps/katepart/syntax/cs.xml
 usr/share/kde4/apps/katepart/syntax/css-php.xml
@@ -212,8 +212,8 @@ usr/share/kde4/apps/katepart/syntax/modelines.xml
 usr/share/kde4/apps/katepart/syntax/modula-2.xml
 usr/share/kde4/apps/katepart/syntax/monobasic.xml
 usr/share/kde4/apps/katepart/syntax/mup.xml
-usr/share/kde4/apps/katepart/syntax/nasm.xml
 usr/share/kde4/apps/katepart/syntax/nagios.xml
+usr/share/kde4/apps/katepart/syntax/nasm.xml
 usr/share/kde4/apps/katepart/syntax/nemerle.xml
 usr/share/kde4/apps/katepart/syntax/noweb.xml
 usr/share/kde4/apps/katepart/syntax/objectivec.xml
@@ -246,9 +246,9 @@ usr/share/kde4/apps/katepart/syntax/qml.xml
 usr/share/kde4/apps/katepart/syntax/qt4.xml
 usr/share/kde4/apps/katepart/syntax/r.xml
 usr/share/kde4/apps/katepart/syntax/rapidq.xml
-usr/share/kde4/apps/katepart/syntax/replicode.xml
 usr/share/kde4/apps/katepart/syntax/relaxng.xml
 usr/share/kde4/apps/katepart/syntax/relaxngcompact.xml
+usr/share/kde4/apps/katepart/syntax/replicode.xml
 usr/share/kde4/apps/katepart/syntax/rest.xml
 usr/share/kde4/apps/katepart/syntax/restructuredtext.xml
 usr/share/kde4/apps/katepart/syntax/rexx.xml
