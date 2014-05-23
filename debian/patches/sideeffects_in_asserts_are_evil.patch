@@ -1,35 +1,36 @@
 Index: kate/tests/katetextbuffertest.cpp
 ===================================================================
---- kate.orig/tests/katetextbuffertest.cpp	2014-05-23 14:47:39.895148666 +0200
-+++ kate/tests/katetextbuffertest.cpp	2014-05-23 14:49:18.923218852 +0200
+--- kate.orig/tests/katetextbuffertest.cpp	2014-05-23 15:18:17.558274353 +0200
++++ kate/tests/katetextbuffertest.cpp	2014-05-23 15:19:56.114368653 +0200
 @@ -417,12 +417,16 @@
  {
    const QString folder_name = QString("katetest_%1").arg(QCoreApplication::applicationPid());
    const QString file_path = QDir::tempPath() + '/' + folder_name + "/foo";
 -  Q_ASSERT(QDir::temp().mkdir(folder_name));
-+  bool result = QDir::temp().mkdir(folder_name);
-+  Q_ASSERT(result);
++  bool assert_test_value = QDir::temp().mkdir(folder_name);
++  Q_ASSERT(assert_test_value);
  
    QFile f(file_path);
 -  Q_ASSERT(f.open(QIODevice::WriteOnly | QIODevice::Truncate));
 +
-+  result = f.open(QIODevice::WriteOnly | QIODevice::Truncate);
-+  Q_ASSERT(result);
++  assert_test_value = f.open(QIODevice::WriteOnly | QIODevice::Truncate);
++  Q_ASSERT(assert_test_value);
    f.write("1234567890");
 -  Q_ASSERT(f.flush());
-+  result = f.flush();
-+  Q_ASSERT(result);
++  assert_test_value = f.flush();
++  Q_ASSERT(assert_test_value);
    f.close();
  
    QFile::setPermissions(QDir::tempPath() + '/' + folder_name, QFile::ExeOwner);
-@@ -444,6 +448,8 @@
+@@ -444,6 +448,9 @@
    f.close();
  
    QFile::setPermissions(QDir::tempPath() + '/' + folder_name, QFile::WriteOwner | QFile::ExeOwner);
 -  Q_ASSERT(f.remove());
 -  Q_ASSERT(QDir::temp().rmdir(folder_name));
-+  result = f.remove();
-+  Q_ASSERT(result);
-+  result = QDir::temp().rmdir(folder_name);
-+  Q_ASSERT(result);
++  assert_test_value = f.remove();
++  Q_ASSERT(assert_test_value);
++  assert_test_value = QDir::temp().rmdir(folder_name);
++  Q_ASSERT(assert_test_value);
++  Q_UNUSED(assert_test_value);
  }
