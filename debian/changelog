@@ -1,4 +1,4 @@
-kate (4:4.13.1-1~) UNRELEASED; urgency=medium
+kate (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Add pate plugin, sync with kubuntu package.
@@ -6,7 +6,7 @@ kate (4:4.13.1-1~) UNRELEASED; urgency=medium
   * New patch: sideeffects_in_asserts_are_evil.patch
   * Add lintian-override to for the js_lint.py file.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:21:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 14:13:35 +0200
 
 kate (4:4.12.4-1) unstable; urgency=medium
 
