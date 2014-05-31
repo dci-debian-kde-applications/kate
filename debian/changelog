@@ -7,6 +7,8 @@ kate (4:4.13.1-2) UNRELEASED; urgency=medium
     it is already provided by kate-syntax-go (see #628161).
   * Remove the files we must not install for real, so this should help not
     installing them accidentally again.
+  * Disable the build of tests, since they are not (and cannot be) run;
+    patch debian-disable-tests.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 May 2014 15:18:33 +0200
 
