@@ -14,7 +14,6 @@ usr/share/kde4/apps/kate/icons/hicolor/16x16/actions/sql-field.png
 usr/share/kde4/apps/kate/icons/hicolor/16x16/actions/sql-table.png
 usr/share/kde4/apps/kate/icons/hicolor/16x16/actions/sql-view.png
 usr/share/kde4/apps/kate/kateui.rc
-usr/share/kde4/apps/kate/pate/
 usr/share/kde4/apps/kate/plugins/filetree/ui.rc
 usr/share/kde4/apps/kate/plugins/kate_kttsd/ui.rc
 usr/share/kde4/apps/kate/plugins/katebuild/ui.rc
@@ -33,7 +32,6 @@ usr/share/kde4/apps/kate/plugins/kategdb/ui.rc
 usr/share/kde4/apps/kate/plugins/katekonsole/ui.rc
 usr/share/kde4/apps/kate/plugins/katemailfiles/ui.rc
 usr/share/kde4/apps/kate/plugins/kateopenheader/ui.rc
-usr/share/kde4/apps/kate/plugins/katepateplugin/ui.rc
 usr/share/kde4/apps/kate/plugins/katereplicodeplugin/ui.rc
 usr/share/kde4/apps/kate/plugins/katesearch/ui.rc
 usr/share/kde4/apps/kate/plugins/katesql/ui.rc
@@ -43,7 +41,6 @@ usr/share/kde4/apps/kate/plugins/katetabify/ui.rc
 usr/share/kde4/apps/kate/plugins/katetextfilter/ui.rc
 usr/share/kde4/apps/kate/plugins/katexmlcheck/ui.rc
 usr/share/kde4/apps/kate/plugins/katexmltools/ui.rc
-usr/share/kde4/apps/kate/plugins/pate/
 usr/share/kde4/apps/kate/tips
 usr/share/kde4/apps/katepart/katepartsimpleui.rc
 usr/share/kde4/apps/katepart/katepartui.rc

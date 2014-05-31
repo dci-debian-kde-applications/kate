@@ -11,7 +11,6 @@ usr/lib/kde4/kategdbplugin.so
 usr/lib/kde4/katekonsoleplugin.so
 usr/lib/kde4/katemailfilesplugin.so
 usr/lib/kde4/kateopenheaderplugin.so
-usr/lib/kde4/katepateplugin.so
 usr/lib/kde4/kateprojectplugin.so
 usr/lib/kde4/katereplicodeplugin.so
 usr/lib/kde4/katesearchplugin.so
@@ -26,8 +25,6 @@ usr/lib/kde4/katexmltoolsplugin.so
 usr/lib/kde4/ktexteditor_lumen.so
 usr/lib/kde4/plasma_applet_katesession.so
 usr/lib/libkdeinit4_kate.so
-usr/lib/python2.7/dist-packages/PyKate4/__init__.py
-usr/lib/python2.7/dist-packages/PyKate4/kate.so
 usr/share/applications/kde4/kate.desktop
 usr/share/kde4/apps/kate/plugins/project/kateproject.example
 usr/share/kde4/apps/kate/plugins/project/ui.rc
@@ -43,18 +40,6 @@ usr/share/kde4/services/kategdbplugin.desktop
 usr/share/kde4/services/katekonsoleplugin.desktop
 usr/share/kde4/services/katemailfilesplugin.desktop
 usr/share/kde4/services/kateopenheader.desktop
-usr/share/kde4/services/katepate_block.desktop
-usr/share/kde4/services/katepate_color_tools.desktop
-usr/share/kde4/services/katepate_commentar.desktop
-usr/share/kde4/services/katepate_format.desktop
-usr/share/kde4/services/katepate_gid.desktop
-usr/share/kde4/services/katepate_python_autocomplete.desktop
-usr/share/kde4/services/katepate_python_autocomplete_jedi.desktop
-usr/share/kde4/services/katepate_python_console_classic.desktop
-usr/share/kde4/services/katepate_python_console_ipython.desktop
-usr/share/kde4/services/katepate_python_utils.desktop
-usr/share/kde4/services/katepate_try_open_file.desktop
-usr/share/kde4/services/katepate_xml_pretty.desktop
 usr/share/kde4/services/kateprojectplugin.desktop
 usr/share/kde4/services/katereplicodeplugin.desktop
 usr/share/kde4/services/katesearch.desktop
@@ -66,7 +51,5 @@ usr/share/kde4/services/katetextfilter.desktop
 usr/share/kde4/services/katexmlcheck.desktop
 usr/share/kde4/services/katexmltools.desktop
 usr/share/kde4/services/ktexteditor_lumen.desktop
-usr/share/kde4/services/pate.desktop
 usr/share/kde4/services/plasma-applet-katesession.desktop
 usr/share/kde4/servicetypes/kateplugin.desktop
-usr/share/kde4/servicetypes/katepythonplugin.desktop

@@ -10,15 +10,9 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.12),
                libkactivities-dev (>= 4:4.11),
-               libpython2.7-dev,
                libqjson-dev,
-               libqt4-opengl-dev,
-               libqtwebkit-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               python-kde4-dev (>= 4:4.9.80),
-               python-qt4-dev,
-               python-sip-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://kate-editor.org/

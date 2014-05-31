@@ -1,5 +1,8 @@
 kate (4:4.13.1-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Disable pate, since it introduces a build-dependency loop (see also
+    https://bugs.debian.org/729215#10).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 May 2014 15:18:33 +0200
 
