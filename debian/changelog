@@ -3,6 +3,8 @@ kate (4:4.13.1-2) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Disable pate, since it introduces a build-dependency loop (see also
     https://bugs.debian.org/729215#10).
+  * Do not really install (even if renamed) the go.xml syntax file, since
+    it is already provided by kate-syntax-go (see #628161).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 May 2014 15:18:33 +0200
 
