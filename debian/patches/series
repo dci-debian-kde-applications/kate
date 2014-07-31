@@ -1,2 +1,1 @@
-debian-disable-tests.diff
 sideeffects_in_asserts_are_evil.patch
