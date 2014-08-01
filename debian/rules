@@ -5,10 +5,10 @@ libpkgs_addsubst_allLibraries = kate-dbg
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-.PHONY: override_dh_auto_test
+override_dh_auto_configure:
+	$(overridden_command) -- -DKDE4_BUILD_TESTS=false
 
-override_dh_strip:
-	$(overridden_command) --dbg-package=kate-dbg
+.PHONY: override_dh_auto_test
 
 override_dh_auto_install:
 	$(overridden_command)
@@ -19,3 +19,6 @@ override_dh_auto_install:
 	# these would belong to kate-dev
 	rm -rf debian/tmp/usr/include
 	find debian/tmp/usr/lib -maxdepth 1 -name '*.so' -type l -delete
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=kate-dbg
