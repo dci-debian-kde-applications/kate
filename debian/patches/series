@@ -1,1 +1,2 @@
 sideeffects_in_asserts_are_evil.patch
+do_not_enforce_tests
