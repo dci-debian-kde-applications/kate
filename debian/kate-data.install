@@ -50,6 +50,8 @@ usr/share/kde4/apps/katepart/script/commands/quickcoding.js
 usr/share/kde4/apps/katepart/script/commands/utils.js
 usr/share/kde4/apps/katepart/script/files/quickcoding/cpp/a.template
 usr/share/kde4/apps/katepart/script/files/quickcoding/cpp/c.template
+usr/share/kde4/apps/katepart/script/indentation/ada.js
+usr/share/kde4/apps/katepart/script/indentation/cmake.js
 usr/share/kde4/apps/katepart/script/indentation/cppstyle.js
 usr/share/kde4/apps/katepart/script/indentation/cstyle.js
 usr/share/kde4/apps/katepart/script/indentation/haskell.js
@@ -61,6 +63,7 @@ usr/share/kde4/apps/katepart/script/indentation/pascal.js
 usr/share/kde4/apps/katepart/script/indentation/python.js
 usr/share/kde4/apps/katepart/script/indentation/ruby.js
 usr/share/kde4/apps/katepart/script/indentation/xml.js
+usr/share/kde4/apps/katepart/script/libraries/cmake_indenter_config.js
 usr/share/kde4/apps/katepart/script/libraries/cursor.js
 usr/share/kde4/apps/katepart/script/libraries/documentcursor.js
 usr/share/kde4/apps/katepart/script/libraries/emmet/editor_interface.js
@@ -73,6 +76,7 @@ usr/share/kde4/apps/katepart/syntax/abap.xml
 usr/share/kde4/apps/katepart/syntax/abc.xml
 usr/share/kde4/apps/katepart/syntax/actionscript.xml
 usr/share/kde4/apps/katepart/syntax/ada.xml
+usr/share/kde4/apps/katepart/syntax/agda.xml
 usr/share/kde4/apps/katepart/syntax/ahdl.xml
 usr/share/kde4/apps/katepart/syntax/ahk.xml
 usr/share/kde4/apps/katepart/syntax/alert.xml
@@ -162,6 +166,7 @@ usr/share/kde4/apps/katepart/syntax/idl.xml
 usr/share/kde4/apps/katepart/syntax/ilerpg.xml
 usr/share/kde4/apps/katepart/syntax/inform.xml
 usr/share/kde4/apps/katepart/syntax/ini.xml
+usr/share/kde4/apps/katepart/syntax/isocpp.xml
 usr/share/kde4/apps/katepart/syntax/jam.xml
 usr/share/kde4/apps/katepart/syntax/java.xml
 usr/share/kde4/apps/katepart/syntax/javadoc.xml
@@ -239,14 +244,12 @@ usr/share/kde4/apps/katepart/syntax/python.xml
 usr/share/kde4/apps/katepart/syntax/q.xml
 usr/share/kde4/apps/katepart/syntax/qmake.xml
 usr/share/kde4/apps/katepart/syntax/qml.xml
-usr/share/kde4/apps/katepart/syntax/qt4.xml
 usr/share/kde4/apps/katepart/syntax/r.xml
 usr/share/kde4/apps/katepart/syntax/rapidq.xml
 usr/share/kde4/apps/katepart/syntax/relaxng.xml
 usr/share/kde4/apps/katepart/syntax/relaxngcompact.xml
 usr/share/kde4/apps/katepart/syntax/replicode.xml
 usr/share/kde4/apps/katepart/syntax/rest.xml
-usr/share/kde4/apps/katepart/syntax/restructuredtext.xml
 usr/share/kde4/apps/katepart/syntax/rexx.xml
 usr/share/kde4/apps/katepart/syntax/rhtml.xml
 usr/share/kde4/apps/katepart/syntax/rib.xml
