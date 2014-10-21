@@ -1,6 +1,6 @@
 kate (4:4.14.2-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Move data files to data package. (Closes: #766143)
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Oct 2014 13:06:57 +0200
 
