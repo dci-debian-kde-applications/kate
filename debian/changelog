@@ -1,4 +1,4 @@
-kate (4:4.14.2-0ubuntu2) UNRELEASED; urgency=medium
+kate (4:4.14.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * Merge with debian unstable, remaining changes:
     - add appropriate breaks/replaces
@@ -8,6 +8,7 @@ kate (4:4.14.2-0ubuntu2) UNRELEASED; urgency=medium
   * Update Vcs urls for the new repository location.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update the maintainer
+  * New upstream bugfix release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 18:52:16 +0100
 
