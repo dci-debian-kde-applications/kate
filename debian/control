@@ -1,23 +1,32 @@
 Source: kate
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.12),
-               libkactivities-dev (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.14.2),
+               libkactivities-dev,
+               libpython2.7-dev,
                libqjson-dev,
+               libqt4-opengl-dev,
+               libqtwebkit-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
+               python-kde4-dev (>= 4:4.9.80),
+               python-qt4-dev,
+               python-sip-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://kate-editor.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kate.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kate.git
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kate
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kate
+X-Vcs-Debian-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kate.git
+X-Vcs-Debian-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kate.git
 
 Package: kate
 Section: editors
@@ -26,6 +35,8 @@ Depends: kate-data (>= ${source:Version}),
          katepart (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kate-data (<< 4:4.13.90)
+Replaces: kate-data (<< 4:4.13.90)
 Suggests: aspell | ispell | hspell, khelpcenter4, konsole
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
@@ -61,8 +72,12 @@ Description: embeddable text editor component
 Package: kate-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: kate (<< 4:4.14.2-2~), kdelibs5-data (<< 4:4.6.90)
-Replaces: kate (<< 4:4.14.2-2~), kdelibs5-data (<< 4:4.6.90)
+Breaks: kate (<< 4:4.6.90),
+        katepart (<< 4:4.13.90),
+        kdelibs5-data (<< 4:4.6.90)
+Replaces: kate (<< 4:4.6.90),
+          katepart (<< 4:4.13.90),
+          kdelibs5-data (<< 4:4.6.90)
 Description: shared data files for Kate text editor
  This package contains the architecture-independent shared data files needed
  for Kate editor
