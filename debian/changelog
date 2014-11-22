@@ -1,4 +1,4 @@
-kate (4:4.14.3-0ubuntu1) UNRELEASED; urgency=medium
+kate (4:4.14.3-0ubuntu1) vivid; urgency=medium
 
   * Merge with debian unstable, remaining changes:
     - add appropriate breaks/replaces
@@ -10,7 +10,7 @@ kate (4:4.14.3-0ubuntu1) UNRELEASED; urgency=medium
   * Update the maintainer
   * New upstream bugfix release
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 18:52:16 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 21:07:44 +0100
 
 kate (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
