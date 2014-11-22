@@ -1,8 +1,7 @@
 Source: kate
 Section: kde
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
@@ -20,11 +19,11 @@ Build-Depends: cmake,
                python-kde4-dev (>= 4:4.9.80),
                python-qt4-dev,
                python-sip-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://kate-editor.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kate.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kate.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kate.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kate.git
 
 Package: kate
 Section: editors
