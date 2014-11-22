@@ -23,10 +23,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://kate-editor.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kate
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kate
-X-Vcs-Debian-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kate.git
-X-Vcs-Debian-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kate.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kate.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kate.git
 
 Package: kate
 Section: editors
