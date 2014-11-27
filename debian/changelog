@@ -1,3 +1,10 @@
+kate (4:4.14.3-0ubuntu3) vivid; urgency=medium
+
+  * Fix autopkgtest run by making sure DEB_HOST_MULTIARCH is defined in the
+    testsuite
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 27 Nov 2014 21:12:08 +0100
+
 kate (4:4.14.3-0ubuntu2) vivid; urgency=medium
 
   * kate-data breaks/replaces katepart << 4:4.14.3-0ubuntu2~ (LP: #1395466)
