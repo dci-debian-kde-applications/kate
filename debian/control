@@ -7,18 +7,24 @@ Uploaders: Modestas Vainius <modax@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.14.2),
-               libkactivities-dev,
+               extra-cmake-modules,
+               kdoctools-dev,
+               kinit-dev,
+               kio-dev,
+               libkf5config-dev,
+               libkf5guiaddons-dev,
+               libkf5i18n-dev,
+               libkf5itemmodels-dev,
+               libkf5jobwidgets-dev,
+               libkf5notifications-dev,
+               libkf5service-dev,
+               libkf5texteditor-dev,
+               libkf5threadweaver-dev,
+               libkf5wallet-dev,
                libpython2.7-dev,
-               libqjson-dev,
-               libqt4-opengl-dev,
-               libqtwebkit-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               python-kde4-dev (>= 4:4.9.80),
-               python-qt4-dev,
-               python-sip-dev
+               plasma-framework
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://kate-editor.org/
@@ -29,12 +35,10 @@ Package: kate
 Section: editors
 Architecture: any
 Depends: kate-data (>= ${source:Version}),
-         katepart (= ${binary:Version}),
+         ktexteditor-katepart,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kate-data (<< 4:4.13.90)
-Replaces: kate-data (<< 4:4.13.90)
-Suggests: aspell | ispell | hspell, khelpcenter4, konsole
+Suggests: aspell | ispell | hspell, khelpcenter, konsole-kpart
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
@@ -49,88 +53,28 @@ Description: powerful text editor
   * Configurable templates and text snippets
   * Symbol viewers for C, C++, and Python
   * XML completion and validation
- .
- This package is part of the KDE 4 Base applications module.
-
-Package: katepart
-Architecture: any
-Depends: kate-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: kate (<< 4:4.7.0),
-        kdelibs5-data (<< 4:4.6.90),
-        kdelibs5-plugins (<< 4:4.6.90)
-Replaces: kate (<< 4:4.7.0),
-          kdelibs5-data (<< 4:4.6.90),
-          kdelibs5-plugins (<< 4:4.6.90)
-Description: embeddable text editor component
- KatePart is a fast and featurerich text editor component. It implements the
- KTextEditor interfaces, a common interface collection for text editor
- components in KDE.
 
 Package: kate-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: kate (<< 4:4.14.3-0ubuntu2~),
-        katepart (<< 4:4.14.3-0ubuntu2~),
-        kdelibs5-data (<< 4:4.6.90)
-Replaces: kate (<< 4:4.14.3-0ubuntu2~),
-          katepart (<< 4:4.14.3-0ubuntu2~),
-          kdelibs5-data (<< 4:4.6.90)
 Description: shared data files for Kate text editor
  This package contains the architecture-independent shared data files needed
  for Kate editor
- .
- This package is part of the KDE 4 Base applications module.
-
-Package: libkatepartinterfaces4
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: library for the embeddable text editor component
- This library contains the code used by the kate part. It is not
- meant to be used directly, applications should use libktexteditor4
- instead.
- .
- This package is a part of KDE 4 Base applications module.
-
-Package: libkateinterfaces4
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kate (<< 4:4.6.90)
-Replaces: kate (<< 4:4.6.90)
-Description: plugin interface for the kate editor
- This library contains the code used by kate plugins that provide a better
- integration into the app like tool views
- .
- This package is part of the KDE 4 Base applications module
 
 Package: kwrite
 Section: editors
 Architecture: any
-Depends: katepart (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: ktexteditor-katepart, ${misc:Depends}, ${shlibs:Depends}
 Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
  highlighting, automatic indentation, and numerous other text tools.
- .
- This package is part of the KDE 4 Base applications module.
 
 Package: kate-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: katepart (= ${binary:Version}),
-         kde-runtime-dbg (>= 4:4.6.90),
-         ${allLibraries},
-         ${misc:Depends}
-Breaks: kdebase-dbg (<< 4:4.6.90),
-        kdelibs5-dbg (<< 4:4.6.90),
-        kdesdk-dbg (<< 4:4.6.90)
-Replaces: kdebase-dbg (<< 4:4.6.90),
-          kdelibs5-dbg (<< 4:4.6.90),
-          kdesdk-dbg (<< 4:4.6.90)
+Depends: ${allLibraries}, ${misc:Depends}
 Description: debugging symbols for Kate
  This package contains debugging files used to investigate problems with
  binaries included in Kate.
- .
- This package is part of the KDE 4 base applications module.

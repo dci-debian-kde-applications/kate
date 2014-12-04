@@ -1,3 +1,10 @@
+kate (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Update build-deps and use pkg-kde v3 for Qt 5 build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 16:49:41 +0100
+
 kate (4:4.14.3-0ubuntu3) vivid; urgency=medium
 
   * Fix autopkgtest run by making sure DEB_HOST_MULTIARCH is defined in the
