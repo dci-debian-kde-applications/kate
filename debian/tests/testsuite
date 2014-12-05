@@ -5,6 +5,7 @@ if [ -d /usr/lib/ccache ]; then
     export PATH="/usr/lib/ccache:$PATH"
 fi
 debian/rules clean 2>&1
+export DEB_HOST_MULTIARCH=`dpkg-architecture -qDEB_HOST_MULTIARCH`
 dpkg-source --before-build .
 debian/rules build 2>&1
 
