@@ -1,4 +1,4 @@
 usr/bin/kwrite
-usr/lib/x86_64-linux-gnu/libkdeinit5_kwrite.so
+usr/lib/*/libkdeinit5_kwrite.so
 usr/share/applications/org.kde.kwrite.desktop
 usr/share/doc/HTML/en/kwrite/
