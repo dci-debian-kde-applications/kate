@@ -1,4 +1,3 @@
-etc/xdg/katerc
 usr/bin/kate
 usr/lib/*/libkdeinit5_kate.so
 usr/lib/*/qt5/plugins/ktexteditor/katebacktracebrowserplugin.so
