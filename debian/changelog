@@ -2,6 +2,7 @@ kate (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Update build-deps and use pkg-kde v3 for Qt 5 build
+  * kate-data now kate5-data for co-installability
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 16:49:41 +0100
 
