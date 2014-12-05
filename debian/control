@@ -81,7 +81,7 @@ Package: kate-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${allLibraries}, ${misc:Depends}
+Depends: kate | kwrite, ${misc:Depends}
 Description: debugging symbols for Kate
  This package contains debugging files used to investigate problems with
  binaries included in Kate.
