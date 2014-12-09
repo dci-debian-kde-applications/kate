@@ -1,4 +1,4 @@
-kate (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kate (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Update build-deps and use pkg-kde v3 for Qt 5 build
