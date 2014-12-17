@@ -1,3 +1,9 @@
+kate (4:14.12.0-0ubuntu2) vivid; urgency=medium
+
+  * Update testsuite.xsession to use kdeinit5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Dec 2014 12:20:37 +0100
+
 kate (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
