@@ -1,3 +1,9 @@
+kate (4:14.12.0-0ubuntu3) vivid; urgency=medium
+
+  * add missing epoch to breaks/replaces
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Jan 2015 18:22:56 +0100
+
 kate (4:14.12.0-0ubuntu2) vivid; urgency=medium
 
   * Update testsuite.xsession to use kdeinit5
