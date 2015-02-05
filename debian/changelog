@@ -1,3 +1,9 @@
+kate (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 05 Feb 2015 20:56:26 +0000
+
 kate (4:14.12.0-0ubuntu3) vivid; urgency=medium
 
   * add missing epoch to breaks/replaces
