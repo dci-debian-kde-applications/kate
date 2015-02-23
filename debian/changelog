@@ -1,3 +1,9 @@
+kate4 (4:4.14.3-1~) UNRELEASED; urgency=medium
+
+  * Prepare Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 23:46:28 +0100
+
 kate4 (4:4.14.3-0ubuntu4) vivid; urgency=medium
 
   * Rename source to kate4
