@@ -1,9 +1,9 @@
-kate (4:14.12.2-1~) UNRELEASED; urgency=medium
+kate (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 16:01:02 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 22:39:13 +0100
 
 kate (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
