@@ -45,7 +45,7 @@ kate (4:4.14.2-0ubuntu1) vivid; urgency=medium
 kate (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Add missing file to katepart. 
+  * Add missing file to katepart.
   * wrap-and-sort
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:32:18 +0200
@@ -331,7 +331,7 @@ kate (4:4.10.90-0ubuntu1) saucy; urgency=low
 
 kate (4:4.10.80-0ubuntu2) saucy; urgency=low
 
-  * kate-data breaks/replaces kate << 4:4.10.80 for moved pate files 
+  * kate-data breaks/replaces kate << 4:4.10.80 for moved pate files
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Jun 2013 15:51:54 +0200
 
@@ -523,7 +523,7 @@ kate (4:4.9.1-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Change sonames from 4.9.0 to 4.9.* 
+  * Change sonames from 4.9.0 to 4.9.*
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:17:04 +0530
 
@@ -631,7 +631,7 @@ kate (4:4.7.4-3) raring; urgency=low
 
 kate (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 07 Mar 2012 17:51:28 +0100
 
@@ -746,4 +746,3 @@ kate (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
       because of unclear licensing.
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 20 Jul 2011 19:56:03 +0200
-
