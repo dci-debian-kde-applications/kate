@@ -1,6 +1,6 @@
 etc/xdg/katerc
 etc/xdg/ktexteditor_codesnippets_core.knsrc
-usr/share/doc/HTML/*/katepart
+usr/share/doc/HTML/*/katepart/
 usr/share/icons/hicolor/
 usr/share/kateproject/kateproject.example
 usr/share/katexmltools/
