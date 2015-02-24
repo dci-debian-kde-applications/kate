@@ -1,8 +1,6 @@
-usr/lib/python2.7/dist-packages/PyKate4/__init__.py
 usr/share/doc/kde/HTML/*/kate/*
 usr/share/kde4/apps/kate/icons/
 usr/share/kde4/apps/kate/kateui.rc
-usr/share/kde4/apps/kate/pate/
 usr/share/kde4/apps/kate/plugins/
 usr/share/kde4/apps/kate/tips
 usr/share/kde4/apps/katepart/
@@ -16,18 +14,4 @@ usr/share/kde4/config/katerc
 usr/share/kde4/config/kateschemarc
 usr/share/kde4/config/katesyntaxhighlightingrc
 usr/share/kde4/config/ktexteditor_codesnippets_core.knsrc
-usr/share/kde4/services/katepate_block.desktop
-usr/share/kde4/services/katepate_color_tools.desktop
-usr/share/kde4/services/katepate_commentar.desktop
-usr/share/kde4/services/katepate_format.desktop
-usr/share/kde4/services/katepate_gid.desktop
-usr/share/kde4/services/katepate_python_autocomplete.desktop
-usr/share/kde4/services/katepate_python_autocomplete_jedi.desktop
-usr/share/kde4/services/katepate_python_console_classic.desktop
-usr/share/kde4/services/katepate_python_console_ipython.desktop
-usr/share/kde4/services/katepate_python_utils.desktop
-usr/share/kde4/services/katepate_try_open_file.desktop
-usr/share/kde4/services/katepate_xml_pretty.desktop
 usr/share/kde4/services/katesnippetsplugin.desktop
-usr/share/kde4/services/pate.desktop
-usr/share/kde4/servicetypes/katepythonplugin.desktop
