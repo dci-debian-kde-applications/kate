@@ -1,8 +1,12 @@
 kate (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 10:14:10 -0700
+  [ Jonathan Riddell ]
+  * Don't install applet file, broken in 14.12
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Mar 2015 20:54:11 +0100
 
 kate (4:14.12.2-0ubuntu1) vivid; urgency=medium
 

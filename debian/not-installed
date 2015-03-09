@@ -4,3 +4,6 @@
 
 # compressed manpage
 ./usr/share/man/man1/kate.1
+
+#broken in applications 15.04
+./usr/share/kservices5/plasma-applet-org.kde.plasma.katesessions.desktop
