@@ -1,4 +1,38 @@
-kate (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kate (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * Don't install applet file, broken in 14.12
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Mar 2015 20:54:11 +0100
+
+kate (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 07:12:54 -0800
+
+kate (4:14.12.0-0ubuntu3) vivid; urgency=medium
+
+  * add missing epoch to breaks/replaces
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Jan 2015 18:22:56 +0100
+
+kate (4:14.12.0-0ubuntu2) vivid; urgency=medium
+
+  * Update testsuite.xsession to use kdeinit5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Dec 2014 12:20:37 +0100
+
+kate (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 15:38:19 +0100
+
+kate (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Update build-deps and use pkg-kde v3 for Qt 5 build
