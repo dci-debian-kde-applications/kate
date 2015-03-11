@@ -10,6 +10,7 @@ usr/lib/*/qt5/plugins/ktexteditor/kategdbplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/katekonsoleplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/kateopenheaderplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/kateprojectplugin.so
+usr/lib/*/qt5/plugins/ktexteditor/katereplicodeplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/katesearchplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/katesnippetsplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/katesqlplugin.so

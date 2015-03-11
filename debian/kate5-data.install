@@ -13,6 +13,7 @@ usr/share/kxmlgui5/kategdb/ui.rc
 usr/share/kxmlgui5/katekonsole/ui.rc
 usr/share/kxmlgui5/kateopenheaderplugin/ui.rc
 usr/share/kxmlgui5/kateproject/ui.rc
+usr/share/kxmlgui5/katereplicodeplugin/ui.rc
 usr/share/kxmlgui5/katesearch/ui.rc
 usr/share/kxmlgui5/katesnippets/ui.rc
 usr/share/kxmlgui5/katesql/ui.rc
