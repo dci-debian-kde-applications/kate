@@ -4,6 +4,16 @@ kate (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:21:17 +0100
 
+kate (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * Don't install applet file, broken in 14.12
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 13:18:13 -0700
+
 kate (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).

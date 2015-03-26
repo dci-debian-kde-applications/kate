@@ -5,7 +5,6 @@ usr/lib/*/qt5/plugins/plasma/dataengine/plasma_engine_katesessions.so
 usr/share/applications/org.kde.kate.desktop
 usr/share/doc/HTML/*/kate/
 usr/share/kservices5/katesymbolviewerplugin.desktop
-usr/share/kservices5/plasma-applet-org.kde.plasma.katesessions.desktop
 usr/share/kservices5/plasma-dataengine-katesessions.desktop
 usr/share/plasma/plasmoids/org.kde.plasma.katesessions
 usr/share/plasma/services/org.kde.plasma.katesessions.operations
