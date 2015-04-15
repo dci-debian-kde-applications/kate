@@ -1,0 +1,12 @@
+Index: kate-14.12.3/CMakeLists.txt
+===================================================================
+--- kate-14.12.3.orig/CMakeLists.txt
++++ kate-14.12.3/CMakeLists.txt
+@@ -45,6 +45,7 @@ find_package(KF5 REQUIRED COMPONENTS
+   TextEditor
+   WindowSystem
+   XmlGui
++  IconThemes
+ )
+ 
+ # use sane compile flags
