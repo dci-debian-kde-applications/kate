@@ -1,3 +1,11 @@
+kate (4:14.12.3-0ubuntu2.1) vivid; urgency=medium
+
+  * Fix "KDEInit could not launch Kate" error when opening second file with Kate
+    in Dolphin. (LP: #1449029)
+    - Add upstream_Register_with_dbus_to_wake_up_KRun.patch
+
+ -- Felix Geyer <debfx@ubuntu.com>  Wed, 27 May 2015 23:44:57 +0200
+
 kate (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
   * Add upstream_find-IconThemes.diff to fix compile
