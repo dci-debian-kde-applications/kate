@@ -1,10 +1,22 @@
-kate (4:14.12.3-0ubuntu2.1) vivid; urgency=medium
+kate (4:15.04.1-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Felix Geyer ]
   * Fix "KDEInit could not launch Kate" error when opening second file with Kate
     in Dolphin. (LP: #1449029)
     - Add upstream_Register_with_dbus_to_wake_up_KRun.patch
 
+  [ Scarlett Clark ]
+  * Fix merge conflict (changelog version discrepancy)
+  * manual merge. 
+
  -- Felix Geyer <debfx@ubuntu.com>  Wed, 27 May 2015 23:44:57 +0200
+
+kate (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 08:19:24 -0700
 
 kate (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
