@@ -11,6 +11,8 @@ kate (4:15.04.1-0ubuntu2) UNRELEASED; urgency=medium
   * manual merge backports. 
   * Remove upstream_find-IconThemes.diff from series file.
     The patch does not exist in directory. 
+  * and remove upstream_Register_with_dbus_to_wake_up_KRun.patch
+    it has already been applied to this backport. 
 
  -- Felix Geyer <debfx@ubuntu.com>  Wed, 27 May 2015 23:44:57 +0200
 
