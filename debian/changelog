@@ -1,4 +1,4 @@
-kate (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
+kate (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Felix Geyer ]
   * Fix "KDEInit could not launch Kate" error when opening second file with Kate
@@ -17,7 +17,7 @@ kate (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 00:51:49 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:37:40 +0200
 
 kate (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
