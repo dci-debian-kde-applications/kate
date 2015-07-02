@@ -13,6 +13,7 @@ Copyright: 2009, Abhishek Patil <abhishekworld@gmail.com>
            2014, Dominik Haumann <dhaumann@kde.org>
            2014, Dominik Haumann <dhauumann@kde.org>
            1991, Free Software Foundation, Inc
+           2014, Gregor Mi <codestruct@posteo.org>
            2001-2014, Joseph Wenninger <jowenn@kde.org>
            2011-2014, Kåre Särs <kare.sars@iki.fi>
            2009-2010, Milian Wolff <mail@milianw.de>
@@ -22,6 +23,13 @@ Copyright: 2009, Abhishek Patil <abhishekworld@gmail.com>
            2002, Simon Hausmann <hausmann@kde.org>
            2014, Sven Brauch <svenbrauch@gmail.com>
            2010, Thomas Fjellstrom <thomas@fjellstrom.ca>
+           2004, Anders.Lund
+           2001-2002, Daniel.Naber
+           2013, The Kate Team
+           2007, Free Software Foundation, Inc. <http://fsf.org/>
+           Milian Wolff <mail@milianw.de>
+           Robert Gruber [rgruber A users!sourceforge!net]
+           2010, Tomáš Trnka
 License: LGPL-2+
 
 Files: addons/backtracebrowser/btdatabase.cpp
@@ -120,7 +128,7 @@ Files: addons/backtracebrowser/btdatabase.cpp
 Copyright: 2001-2005, Anders Lund <anders.lund@lund.tdcadsl.dk>
            2004-2007, Anders Lund <anders@alweb.dk>
            2001, Christoph Cullmann <cullmann@kde.org>
-           2009, Dominik Haumann <dhaumann kde org>
+           2008-2014, Dominik Haumann <dhaumann kde org>
            2009, Erlend Hamberg <ehamberg@gmail.com>
            2007, Flavio Castelli <flavio.castelli@gmail.com>
            2008-2010, Ian Wakeling <ian.wakeling@ntlworld.com>
@@ -199,11 +207,10 @@ Copyright: 2013, Alexander Neundorf <neundorf@kde.org>
            2001, Joseph Wenninger <jowenn@bigfoot.com>
            2014, Kai Uwe Broulik <kde@privat.broulik.de>
            2006-2014, Kåre Särs <kare.sars@iki.fi>
-           2014, Martin Gräßlin <mgraesslin@kde.org>
            2008-2009, Laurent Montel <montel@kde.org>
+           2014, Martin Gräßlin <mgraesslin@kde.org>
            2003-2004, Olaf Schmidt <ojschmidt@kde.org>
            2014, Sebastian Kügler <sebas@kde.org>
-           2001-2014, the Kate team
            2010, Tomas Trnka <tomastrnka@gmx.com>
 License: GPL-2+
 
@@ -307,9 +314,7 @@ Files: COPYING-GPL3
        addons/pate/src/plugins/expand/jinja_stuff.py
        addons/pate/src/plugins/expand/key_sequence_tracker.py
        addons/pate/src/plugins/expand/settings.py
-       addons/pate/src/plugins/expand/text_x-c++hdr.expand
        addons/pate/src/plugins/expand/text_x-c++src.expand
-       addons/pate/src/plugins/expand/text_x-chdr.expand
 Copyright: 2010-2013, Alex Turbov <i.zaufi@gmail.com>
            2007, Free Software Foundation, Inc. <http://fsf.org/>
 License: GPL-3+
@@ -322,6 +327,8 @@ Files: addons/pate/sip/kate/application.sip
        addons/pate/sip/kate/pluginconfigpageinterface.sip
        addons/pate/sip/kate/pluginmanager.sip
        kate/COPYING.LIB
+       kate/data/org.kde.kate.appdata.xml
+       kwrite/org.kde.kwrite.appdata.xml
 Copyright: 1991-1999, Free Software Foundation, Inc
            2007, Jim Bublitz <jbublitz@nwinternet.com>
 License: LGPL-2.1+
@@ -376,7 +383,10 @@ Copyright: 2000-2001, Seth Rothberg
            2011-2014, T.C. Hollingsworth
            2000-2001, Thad McGinnis
            2005, Anne-Marie Mahfouf
-License GFDL-1.2
+           2000, Jochen Wilhelmy
+           2000-2005, the kate developer team
+           2001-2014, the kate team
+License GFDL-1.2+
 
 Files: debian/*
 Copyright: 2015, Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -406,15 +416,15 @@ License: BSD-2-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-License GFDL-1.2
+License GFDL-1.2+
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.2
  or any later version published by the Free Software Foundation;
  with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  A copy of the license is included in the section entitled "GNU
  Free Documentation License".
- .
- On Debian systems, the complete texts of the GNU Free Documentation License
+ --
+ On Debian systems, the complete text of the GNU Free Documentation License
  version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2'.
 
 License: GPL-2
@@ -430,8 +440,8 @@ License: GPL-2
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software Foundation,
  Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- .
- On Debian systems, the complete texts of the GNU General Public License
+ --
+ On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 License: GPL-2+
@@ -439,8 +449,8 @@ License: GPL-2+
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
  (at your option) any later version.
- .
- On Debian systems, the complete texts of the GNU General Public License
+ --
+ On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 License: GPL-2+3+KDEeV
@@ -459,6 +469,11 @@ License: GPL-2+3+KDEeV
  .
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ --
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
 
 License: GPL-2.1+3+KDEeV
  This program is free software; you can redistribute it and/or
@@ -476,10 +491,10 @@ License: GPL-2.1+3+KDEeV
  .
  You should have received a copy of the GNU General Public
  License along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete texts of the GNU General Public License
+ --
+ On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2', likewise, the
- complete texts of the GNU General Public License version 3 can be found in
+ complete text of the GNU General Public License version 3 can be found in
  `/usr/share/common-licenses/GPL-3'.
 Comment: There is no GPL-2.1. This is most likely a typo either for GPL-2 or
  LGPL-2.1. As stated it would be under the GPL-3.
@@ -498,8 +513,8 @@ License: GPL-3+
  .
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete texts of the GNU General Public License
+ --
+ On Debian systems, the complete text of the GNU General Public License
  version 3 can be found in `/usr/share/common-licenses/GPL-3'.
 
 License: LGPL-2
@@ -516,8 +531,8 @@ License: LGPL-2
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete texts of the GNU Library General Public
+ --
+ On Debian systems, the complete text of the GNU Library General Public
  License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
 
 License: LGPL-2+
@@ -535,8 +550,8 @@ License: LGPL-2+
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete texts of the GNU Library General Public
+ --
+ On Debian systems, the complete text of the GNU Library General Public
  License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
 
 License: LGPL-2+3
@@ -554,10 +569,10 @@ License: LGPL-2+3
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete texts of the GNU Library General Public
+ --
+ On Debian systems, the complete text of the GNU Library General Public
  License version 2 can be found in `/usr/share/common-licenses/LGPL-2',
- likewise, the complete texts of the GNU Lesser General Public License version
+ likewise, the complete text of the GNU Lesser General Public License version
  3 can be found in `/usr/share/common-licenses/LGPL-3'.
 
 License: LGPL-2.1+
@@ -574,8 +589,8 @@ License: LGPL-2.1+
  You should have received a copy of the GNU Lesser General Public
  License along with this library; if not, write to the Free Software
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
- .
- On Debian systems, the complete texts of the GNU Lesser General Public
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public
  License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
 
 License: LGPL-2.1+3+KDEeV
@@ -594,10 +609,10 @@ License: LGPL-2.1+3+KDEeV
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete texts of the GNU Lesser General Public
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public
  License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1',
- likewise, the complete texts of the GNU Lesser General Public License version
+ likewise, the complete text of the GNU Lesser General Public License version
  3 can be found in `/usr/share/common-licenses/LGPL-3'.
 
 License: LGPL-3+
@@ -613,6 +628,6 @@ License: LGPL-3+
  .
  You should have received a copy of the GNU Lesser General Public License
  along with this software.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete texts of the GNU Lesser General Public
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public
  License version 3 can be found in `/usr/share/common-licenses/LGPL-3'.

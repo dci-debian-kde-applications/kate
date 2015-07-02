@@ -4,6 +4,7 @@ kate (4:15.04.2-1~) UNRELEASED; urgency=medium
   * Remove upstream applied patch: upstream_find-IconThemes.diff
   * New upstream release (15.04.1).
   * New upstream release (15.04.2).
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:01:43 +0200
 
