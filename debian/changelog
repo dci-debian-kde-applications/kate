@@ -7,6 +7,34 @@ kate (4:15.04.2-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:01:43 +0200
 
+kate (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Felix Geyer ]
+  * Fix "KDEInit could not launch Kate" error when opening second file with Kate
+    in Dolphin. (LP: #1449029)
+    - Add upstream_Register_with_dbus_to_wake_up_KRun.patch
+
+  [ Scarlett Clark ]
+  * Fix merge conflict (changelog version discrepancy)
+  * manual merge. 
+  * manual merge backports. 
+  * Remove upstream_find-IconThemes.diff from series file.
+    The patch does not exist in directory. 
+  * and remove upstream_Register_with_dbus_to_wake_up_KRun.patch
+    it has already been applied to this backport. 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:37:40 +0200
+
+kate (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 08:19:24 -0700
+
 kate (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).
