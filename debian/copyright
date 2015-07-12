@@ -386,7 +386,7 @@ Copyright: 2000-2001, Seth Rothberg
            2000, Jochen Wilhelmy
            2000-2005, the kate developer team
            2001-2014, the kate team
-License GFDL-1.2+
+License: GFDL-1.2+
 
 Files: debian/*
 Copyright: 2015, Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
