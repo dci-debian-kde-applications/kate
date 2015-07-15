@@ -1,8 +1,9 @@
-kate (4:15.04.3-0ubuntu1) UNRELEASED; urgency=medium
+kate (4:15.04.3-0ubuntu2) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Add missing QML dependencies
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 17:06:10 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Jul 2015 16:47:48 +0200
 
 kate (4:15.04.2-0ubuntu1) wily; urgency=medium
 
