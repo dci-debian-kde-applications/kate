@@ -19,7 +19,6 @@ usr/lib/*/qt5/plugins/ktexteditor/katexmltoolsplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/kterustcompletionplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/ktexteditor_lumen.so
 usr/lib/*/qt5/plugins/ktexteditor/tabswitcherplugin.so
-usr/lib/*/qt5/plugins/ktexteditor/textfilterplugin.so
 usr/lib/*/qt5/plugins/plasma/dataengine/plasma_engine_katesessions.so
 usr/share/appdata/org.kde.kate.appdata.xml
 usr/share/applications/org.kde.kate.desktop
