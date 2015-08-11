@@ -21,4 +21,5 @@ usr/share/kxmlgui5/katesymbolviewer/ui.rc
 usr/share/kxmlgui5/katexmltools/ui.rc
 usr/share/kxmlgui5/kterustcompletion/ui.rc
 usr/share/kxmlgui5/tabswitcher/ui.rc
+usr/share/kxmlgui5/textfilter/ui.rc
 usr/share/man/man1/kate.1
