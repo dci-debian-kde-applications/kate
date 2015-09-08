@@ -44,6 +44,10 @@ Section: editors
 Architecture: any
 Depends: kate5-data (>= ${source:Version}),
          ktexteditor-katepart,
+         plasma-framework,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter, konsole-kpart
