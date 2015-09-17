@@ -44,7 +44,6 @@ Package: kate
 Section: editors
 Architecture: any
 Depends: kate5-data (>= ${source:Version}),
-         katepart,
          ktexteditor-katepart,
          plasma-framework,
          qml-module-org-kde-kquickcontrolsaddons,
