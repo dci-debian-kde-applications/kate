@@ -1,6 +1,5 @@
 kate (4:15.08.1-2~) UNRELEASED; urgency=medium
 
-  * 
   * Add copyright information about the current license of the linkable
     code. (Closes: #799431)
 
