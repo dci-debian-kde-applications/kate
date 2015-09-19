@@ -1,10 +1,10 @@
-kate (4:15.08.1-1~) UNRELEASED; urgency=medium
+kate (4:15.08.1-1) unstable; urgency=medium
 
   * Drop fake katepart dependency, it wasnt really needed. (Closes:
     799294) Thanks to Ralf Jung
   * New upstream release (15.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:40:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:44:53 +0200
 
 kate (4:15.08.0-1) unstable; urgency=medium
 
