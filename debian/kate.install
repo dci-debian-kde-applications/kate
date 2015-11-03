@@ -1,5 +1,4 @@
 usr/bin/kate
-usr/lib/*/libkdeinit5_kate.so
 usr/lib/*/qt5/plugins/ktexteditor/katebacktracebrowserplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/katebuildplugin.so
 usr/lib/*/qt5/plugins/ktexteditor/katecloseexceptplugin.so
