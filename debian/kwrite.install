@@ -3,4 +3,3 @@ usr/lib/*/libkdeinit5_kwrite.so
 usr/share/appdata/org.kde.kwrite.appdata.xml
 usr/share/applications/org.kde.kwrite.desktop
 usr/share/doc/HTML/*/kwrite/
-usr/share/kxmlgui5/kwrite/kwriteui.rc
