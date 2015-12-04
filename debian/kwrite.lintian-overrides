@@ -1,4 +1,2 @@
 kwrite: package-name-doesnt-match-sonames libkdeinit5-kwrite
 kwrite: binary-without-manpage usr/bin/kwrite
-kwrite: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kwrite.so libkdeinit5_kwrite.so
-kwrite: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_kwrite.so
