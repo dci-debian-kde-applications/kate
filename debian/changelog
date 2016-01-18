@@ -1,8 +1,32 @@
+kate (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Clive Johnston ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Merge with debian git master
+
+ -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:40:49 +0000
+
+kate (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:38:32 +0100
+
 kate (4:15.08.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Nov 2015 15:35:34 -0800
+
+kate (4:15.08.2-1) unstable; urgency=medium
+
+  * Add copyright information about the current license of the linkable
+    code. (Closes: #799431)
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:06:43 +0200
 
 kate (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -11,11 +35,26 @@ kate (4:15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 11:58:32 +0100
 
+kate (4:15.08.1-1) unstable; urgency=medium
+
+  * Drop fake katepart dependency, it wasnt really needed. (Closes:
+    799294) Thanks to Ralf Jung
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:44:53 +0200
+
 kate (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:16:43 +0100
+
+kate (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+  * Add fake dependency for the kde4 katepapart package.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 17:18:25 +0200
 
 kate (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -31,6 +70,17 @@ kate (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:34:00 +0100
 
+kate (4:15.04.3-1) experimental; urgency=medium
+
+  * New upstream release (15.04.0).
+  * Remove upstream applied patch: upstream_find-IconThemes.diff
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+  * Update copyright information.
+  * New upstream release (15.04.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:07:50 +0200
+
 kate (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Felix Geyer ]
@@ -40,24 +90,23 @@ kate (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Fix merge conflict (changelog version discrepancy)
-  * manual merge. 
-  * manual merge backports. 
+  * manual merge.
+  * manual merge backports.
   * Remove upstream_find-IconThemes.diff from series file.
-    The patch does not exist in directory. 
+    The patch does not exist in directory.
   * and remove upstream_Register_with_dbus_to_wake_up_KRun.patch
-    it has already been applied to this backport. 
+    it has already been applied to this backport.
 
   [ Jonathan Riddell ]
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:37:40 +0200
 
-kate (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+kate (4:14.12.3-1) experimental; urgency=medium
 
-  * New upstream release
-  * Vivid backport
+  * New upstream release (14.12.3).
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 08:19:24 -0700
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:12:54 +0200
 
 kate (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
@@ -74,6 +123,13 @@ kate (4:14.12.3-0ubuntu1) vivid; urgency=medium
   * Don't install applet file, broken in 14.12
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 13:18:13 -0700
+
+kate (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 22:39:13 +0100
 
 kate (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
@@ -145,7 +201,7 @@ kate (4:4.14.2-0ubuntu1) vivid; urgency=medium
 kate (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Add missing file to katepart. 
+  * Add missing file to katepart.
   * wrap-and-sort
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:32:18 +0200
@@ -431,7 +487,7 @@ kate (4:4.10.90-0ubuntu1) saucy; urgency=low
 
 kate (4:4.10.80-0ubuntu2) saucy; urgency=low
 
-  * kate-data breaks/replaces kate << 4:4.10.80 for moved pate files 
+  * kate-data breaks/replaces kate << 4:4.10.80 for moved pate files
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Jun 2013 15:51:54 +0200
 
@@ -623,7 +679,7 @@ kate (4:4.9.1-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Change sonames from 4.9.0 to 4.9.* 
+  * Change sonames from 4.9.0 to 4.9.*
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:17:04 +0530
 
@@ -731,7 +787,7 @@ kate (4:4.7.4-3) raring; urgency=low
 
 kate (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 07 Mar 2012 17:51:28 +0100
 
@@ -846,4 +902,3 @@ kate (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
       because of unclear licensing.
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 20 Jul 2011 19:56:03 +0200
-
