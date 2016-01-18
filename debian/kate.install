@@ -1,5 +1,4 @@
 usr/bin/kate
-usr/lib/*/libkdeinit5_kate.so
 usr/lib/*/qt5/plugins/ktexteditor/
 usr/lib/*/qt5/plugins/plasma/dataengine/plasma_engine_katesessions.so
 usr/share/appdata/org.kde.kate.appdata.xml
