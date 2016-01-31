@@ -84,12 +84,3 @@ Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
  highlighting, automatic indentation, and numerous other text tools.
-
-Package: kate-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kate | kwrite, ${misc:Depends}
-Description: debugging symbols for Kate
- This package contains debugging files used to investigate problems with
- binaries included in Kate.
