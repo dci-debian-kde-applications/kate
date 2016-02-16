@@ -3,10 +3,7 @@
 export LANG=C.UTF-8
 export LC_ALL=C.UTF-8
 export HOME=$(mktemp -d)
+trap "rm -rf ${HOME}" EXIT
 
 xvfb-run -a --server-args="-screen 0 1024x768x24" \
-    Xephyr -reset -br -screen 1024x768 :2 & x_pid=$!
-
-trap "kill ${x_pid}; rm -rf ${HOME}" EXIT
-
-DISPLAY=:2 dbus-launch --exit-with-session debian/tests/testsuite.xsession
+    dbus-launch --exit-with-session debian/tests/testsuite.xsession
