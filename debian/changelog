@@ -1,3 +1,11 @@
+kate (4:15.12.3-1~1.gbpa9766a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a9766a011da1e48764df0af3673b1df8eaaabfbf **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:11:02 +0200
+
 kate (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
