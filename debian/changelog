@@ -1,6 +1,6 @@
-kate (4:16.04.0-1~2.gbpa18164) UNRELEASED; urgency=medium
+kate (4:16.04.1-1~1.gbpa6ea2f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a181645dc143a76c5a26a5b8f2e97d55c054facb **
+  ** SNAPSHOT build @a6ea2f0b1ad4714f58a97678511506dadd02471b **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @959259438e528b8284c0b289e403d996112a267a **
@@ -15,8 +15,9 @@ kate (4:16.04.0-1~2.gbpa18164) UNRELEASED; urgency=medium
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 14:09:18 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:09:15 +0200
 
 kate (4:15.12.1-1) experimental; urgency=medium
 
