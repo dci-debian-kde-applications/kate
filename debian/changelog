@@ -1,10 +1,8 @@
-kate (4:16.04.2-1~1.gbp444513) UNRELEASED; urgency=medium
+kate (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @444513f390641de7aa5af32ab8edca57d7344c07 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:09:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 10:05:41 +0200
 
 kate (4:16.04.1-1) unstable; urgency=medium
 
