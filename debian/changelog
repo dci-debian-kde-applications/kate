@@ -1,3 +1,11 @@
+kate (4:16.04.3-1~1.gbp0a9d6f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0a9d6f8e648a5d8a99b10a595f2f5ac9882c436a **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:09:14 +0200
+
 kate (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
