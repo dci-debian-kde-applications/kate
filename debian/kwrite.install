@@ -1,4 +1,4 @@
 usr/bin/kwrite
-usr/share/appdata/org.kde.kwrite.appdata.xml
 usr/share/applications/org.kde.kwrite.desktop
 usr/share/doc/HTML/*/kwrite/
+usr/share/metainfo/org.kde.kwrite.appdata.xml
