@@ -1,6 +1,6 @@
-kate (4:16.08.2-1~1.gbp7c11d6) UNRELEASED; urgency=medium
+kate (4:16.08.2-1~2.gbpac4869) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7c11d6cfaa46aaec7ffca48b9779497ee2043ffc **
+  ** SNAPSHOT build @ac48690b45eae4052e31be7550b661b2b21b797e **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @94aa9836bcfebe8811b2f65c5ce044f492edaa84 **
@@ -9,11 +9,12 @@ kate (4:16.08.2-1~1.gbp7c11d6) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update install files
   * UNRELEASED
+  * Update install files
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 22:09:39 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 14 Oct 2016 18:30:59 +0200
 
 kate (4:16.04.2-1) unstable; urgency=medium
 
