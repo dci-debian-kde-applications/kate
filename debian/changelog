@@ -1,3 +1,15 @@
+kate (4:17.04.3-1~) UNRELEASED; urgency=medium
+
+  * Drop multiple versions in the watch file
+  * New upstream release (17.04.3).
+  * New upstream release (17.04.3).
+  * New upstream release (17.04.3).
+  * New upstream release (17.04.3).
+  * New upstream release (17.04.3).
+  * New upstream release (17.04.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Aug 2017 21:27:12 +0200
+
 kate (4:16.08.3-1) unstable; urgency=medium
 
   * New upstream release (16.08.3)
