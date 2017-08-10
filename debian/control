@@ -70,8 +70,8 @@ Description: powerful text editor
 Package: kate5-data
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: kate-data (<< 4:4.14.3-0ubuntu4)
-Breaks: kate-data (<< 4:4.14.3-0ubuntu4)
+Replaces: kate-data (<< 4:4.14.3-0ubuntu4), ${kde-l10n:all}
+Breaks: kate-data (<< 4:4.14.3-0ubuntu4), ${kde-l10n:all}
 Description: shared data files for Kate text editor
  This package contains the architecture-independent shared data files needed
  for Kate editor
