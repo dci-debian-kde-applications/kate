@@ -3,5 +3,4 @@ usr/share/icons/hicolor/
 usr/share/kateproject/kateproject.example
 usr/share/katexmltools/
 usr/share/locale/
-usr/share/man/*/man1/kate.1
-usr/share/man/man1/kate.1
+usr/share/man/
