@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.3.0~),
@@ -35,7 +35,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-framework-dev,
                qtbase5-dev (>= 5.4.0~),
-               qtscript5-dev (>= 5.4.0~)
+               qtscript5-dev (>= 5.4.0~),
 Standards-Version: 4.1.0
 Homepage: http://kate-editor.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kate.git
@@ -51,7 +51,7 @@ Depends: kate5-data (>= ${source:Version}),
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Suggests: aspell | ispell | hspell, khelpcenter, konsole-kpart
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
