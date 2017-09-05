@@ -52,6 +52,8 @@ Depends: kate5-data (>= ${source:Version}),
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends},
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Suggests: aspell | ispell | hspell, khelpcenter, konsole-kpart
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
@@ -81,6 +83,8 @@ Package: kwrite
 Section: editors
 Architecture: any
 Depends: ktexteditor-katepart, ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
