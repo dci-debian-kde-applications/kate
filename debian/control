@@ -90,5 +90,6 @@ Description: simple text editor
 Package: ktexteditorpreviewplugin
 Section: oldlibs
 Architecture: all
-Description: transitional
- Transitional package, can be safely removed.
+Description: transitional package for KTextEditorPreviewPlugin
+ Transitional package, can be safely removed.  The plugin is now part
+ of Kate.
