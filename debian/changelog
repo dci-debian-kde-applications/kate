@@ -6,6 +6,8 @@ kate (4:17.08.3-0r1) UNRELEASED; urgency=medium
     drop translations.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove unused build dependencies: libkf5notifications-dev, and
+    libkf5service-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 12:53:52 +0100
 
