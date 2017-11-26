@@ -11,6 +11,9 @@ kate (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Update lintian overrides.
   * Drop rules to remove files from debian/tmp, since the references files do
     not exist anymore in this source.
+  * Update the relationships for spell checking:
+    - recommend sonnet-plugins (Closes: #880800)
+    - drop the aspell | ispell | hspell suggest
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 12:53:52 +0100
 

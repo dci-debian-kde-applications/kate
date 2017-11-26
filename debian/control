@@ -52,7 +52,8 @@ Depends: kate5-data (>= ${source:Version}),
          ${shlibs:Depends},
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
-Suggests: aspell | ispell | hspell, khelpcenter, konsole-kpart
+Recommends: sonnet-plugins
+Suggests: khelpcenter, konsole-kpart
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
