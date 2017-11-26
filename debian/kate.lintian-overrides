@@ -1,3 +1,1 @@
-kate: package-name-doesnt-match-sonames libkdeinit5-kate
-kate: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kate.so libkdeinit5_kate.so
 kate: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_kate.so
