@@ -14,6 +14,7 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
     - add proper breaks/replaces
   * Move the kate documentation from kate to kate5-data
     - add proper breaks/replaces
+  * Remove debian/not-installed, no more useful now.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
