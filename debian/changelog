@@ -5,6 +5,7 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
   * Switch the transitional plasma-framework-dev build dependency with
     libkf5plasma-dev.
   * Ship also the translated man pages of kate.
+  * Ship the desktop file to enable the Plasma applet katesessions.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
