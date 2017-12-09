@@ -1,7 +1,10 @@
 usr/share/doc/HTML/*/katepart/
-usr/share/icons/hicolor/
+usr/share/icons/hicolor/*/apps/kate.png
+usr/share/icons/hicolor/scalable/apps/kate.svgz
 usr/share/kateproject/kateproject.example
 usr/share/katexmltools/
-usr/share/locale/
+usr/share/locale/*/LC_MESSAGES/*kate*.mo
+usr/share/locale/*/LC_MESSAGES/kterustcompletion.mo
+usr/share/locale/*/LC_MESSAGES/tabswitcherplugin.mo
 usr/share/man/*/man1/kate.1
 usr/share/man/man1/kate.1

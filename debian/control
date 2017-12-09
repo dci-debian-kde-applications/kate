@@ -81,8 +81,8 @@ Package: kwrite
 Section: editors
 Architecture: any
 Depends: ktexteditor-katepart, ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kate5-data (<< 4:17.08.3-3~), ${kde-l10n:all}
+Replaces: kate5-data (<< 4:17.08.3-3~), ${kde-l10n:all}
 Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
