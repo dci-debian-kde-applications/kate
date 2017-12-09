@@ -15,6 +15,8 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
   * Move the kate documentation from kate to kate5-data
     - add proper breaks/replaces
   * Remove debian/not-installed, no more useful now.
+  * Remove the kde-l10n breaks/replaces from kate, since there is no translated
+    material there.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
