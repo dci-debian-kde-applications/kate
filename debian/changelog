@@ -12,6 +12,8 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
     the tools that run produce output also on stderr.
   * Move the translations and icons of kwrite from kate5-data to kwrite
     - add proper breaks/replaces
+  * Move the kate documentation from kate to kate5-data
+    - add proper breaks/replaces
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
