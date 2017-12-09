@@ -6,6 +6,7 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
     libkf5plasma-dev.
   * Ship also the translated man pages of kate.
   * Ship the desktop file to enable the Plasma applet katesessions.
+  * Do not pass -DPYTHON_LIBRARY=etc anymore to cmake, since it is not used.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
