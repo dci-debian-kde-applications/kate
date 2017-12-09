@@ -2,6 +2,8 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Bump Standards-Version to 4.1.2, no changes required.
+  * Switch the transitional plasma-framework-dev build dependency with
+    libkf5plasma-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
