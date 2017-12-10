@@ -19,6 +19,11 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
     material there.
   * Invoke dh_install with --fail-missing, so there is no risk of forgetting
     files.
+  * Switch from the libgit2 library to the external git executable for the
+    project plugin, since the code using libgit2 was deemed flaky, and removed
+    in newer upstream versions
+    - remove the libgit2-dev build dependency
+    - add the git suggest in kate
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
