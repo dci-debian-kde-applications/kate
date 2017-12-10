@@ -1,6 +1,6 @@
-kate (4:17.08.3-3) UNRELEASED; urgency=medium
+kate (4:17.08.3-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Switch the transitional plasma-framework-dev build dependency with
     libkf5plasma-dev.
@@ -27,7 +27,7 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
   * Add more suggests for tools optionally used in kate: subversion, mercurial,
     darcs, and exuberant-ctags
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 10 Dec 2017 10:52:12 +0100
 
 kate (4:17.08.3-2) unstable; urgency=medium
 
