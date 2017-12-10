@@ -17,6 +17,8 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
   * Remove debian/not-installed, no more useful now.
   * Remove the kde-l10n breaks/replaces from kate, since there is no translated
     material there.
+  * Invoke dh_install with --fail-missing, so there is no risk of forgetting
+    files.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 
