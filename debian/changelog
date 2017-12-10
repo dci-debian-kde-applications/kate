@@ -24,6 +24,8 @@ kate (4:17.08.3-3) UNRELEASED; urgency=medium
     in newer upstream versions
     - remove the libgit2-dev build dependency
     - add the git suggest in kate
+  * Add more suggests for tools optionally used in kate: subversion, mercurial,
+    darcs, and exuberant-ctags
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 12:04:39 +0100
 

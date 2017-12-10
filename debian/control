@@ -49,7 +49,7 @@ Depends: kate5-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: sonnet-plugins
-Suggests: khelpcenter, konsole-kpart, git
+Suggests: khelpcenter, konsole-kpart, git, subversion, mercurial, darcs, exuberant-ctags
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
