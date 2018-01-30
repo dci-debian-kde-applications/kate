@@ -52,6 +52,8 @@ Depends: kate5-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter, konsole-kpart
+Breaks: ktexteditorpreviewplugin (<< 4:17.12.0)
+Replaces: ktexteditorpreviewplugin (<< 4:17.12.0)
 Description: powerful text editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
@@ -84,3 +86,10 @@ Description: simple text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
  highlighting, automatic indentation, and numerous other text tools.
+
+Package: ktexteditorpreviewplugin
+Section: oldlibs
+Architecture: all
+Description: transitional package for KTextEditorPreviewPlugin
+ Transitional package, can be safely removed.  The plugin is now part
+ of Kate.
